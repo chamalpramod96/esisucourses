@@ -1,0 +1,28 @@
+.home img{
+  width: 100%;
+  height: 850px;
+  object-position: center;
+  object-fit: cover;
+}
+.homecontent{
+  position:absolute;
+  top: 50%;
+  left: 05%;
+}
+
+.homecontent h1{
+  font-size: 55px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.homecontent .btn-primary{
+  background-color:#164f56;
+  border: #164f56;
+  border-radius: 25px;
+  font-family: 'Ubuntu';
+}
+
+.homecontent .btn-light{
+  border-radius: 25px;
+  font-family: 'Ubuntu';
+}

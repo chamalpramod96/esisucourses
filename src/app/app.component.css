@@ -1,0 +1,14 @@
+.navbar{
+  background-color: rgb(255, 255, 255);
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color:#164f56;
+  font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+  text-decoration: wavy;
+  /* color:#175E5D; */
+  color: black;
+}

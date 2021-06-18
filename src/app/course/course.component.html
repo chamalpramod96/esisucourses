@@ -1,1 +1,15 @@
-<h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet perspiciatis voluptas dolores ratione optio labore cupiditate, laudantium quidem in suscipit, laborum distinctio, et ad? Perspiciatis totam blanditiis vitae fugit architecto.</h3>
+<section>
+  <div class="container">
+    <h1 class="text-center" > All Courses </h1>
+    <div class="row mt-5">
+      <div class="col-lg-3 mb-4" *ngFor="let cs of course">
+        <div class="box shadow">
+          <img src="{{cs.image}}" width="100%">
+          <h5 class="mt-2"> {{cs.name}} </h5>
+          <p class="mt-2">{{cs.description}}</p>
+          <button class="btn btn-primary btn-sm mt-2">Watch now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
