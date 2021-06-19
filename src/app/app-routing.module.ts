@@ -6,7 +6,6 @@ import { CourseComponent } from './course/course.component';
 import { HomeComponent } from './home/home.component';
 import { JoinnowComponent } from './joinnow/joinnow.component';
 import { LoginComponent } from './login/login.component';
-import { SigninComponent } from './signin/signin.component';
 import { SignupComponent } from './signup/signup.component';
 
 const routes: Routes = [
@@ -16,7 +15,6 @@ const routes: Routes = [
   { path: 'course', component: CourseComponent,data:{title:'Course | ESISU'} },
   { path: 'joinnow', component: JoinnowComponent ,data:{title:'Join Now | ESISU'}},
   { path: 'login', component: LoginComponent,data:{title:'Login | ESISU'} },
-  { path: 'signin', component: SigninComponent ,data:{title:'SignIn | ESISU'}},
   { path: 'signu', component: SignupComponent,data:{title:'SignUp | ESISU'} }
   
 ];

@@ -12,3 +12,14 @@
   /* color:#175E5D; */
   color: black;
 }
+
+.collapse .btn-primary{
+  background-color: #164f56;
+  border: #164f56;
+  margin-top: 4px;
+}
+
+.collapse .btn-primary a{
+  color: white;
+  text-decoration: dashed;
+}

@@ -8,9 +8,9 @@ import { CourseComponent } from './course/course.component';
 import { JoinnowComponent } from './joinnow/joinnow.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { SignupComponent } from './signup/signup.component';
-import { SigninComponent } from './signin/signin.component';
 import { LoginComponent } from './login/login.component';
 import { ContactComponent } from './contact/contact.component';
+import { ForgotpasswordComponent } from './forgotpassword/forgotpassword.component';
 
 @NgModule({
   declarations: [
@@ -20,9 +20,9 @@ import { ContactComponent } from './contact/contact.component';
     JoinnowComponent,
     AboutusComponent,
     SignupComponent,
-    SigninComponent,
     LoginComponent,
-    ContactComponent
+    ContactComponent,
+    ForgotpasswordComponent
   ],
   imports: [
     BrowserModule,
